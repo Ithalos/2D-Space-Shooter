@@ -16,3 +16,7 @@ config/name="2D-Space-Shooter"
 
 window/size/width=480
 window/size/height=720
+
+[rendering]
+
+quality/intended_usage/framebuffer_allocation=0
