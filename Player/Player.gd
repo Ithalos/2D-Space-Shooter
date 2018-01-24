@@ -27,3 +27,5 @@ func _process(delta):
 		velocity = velocity.normalized() * moveSpeed
 
 	position += velocity * delta
+	position.x = clamp(position.x, 0, windowSize.x)
+	position.y = clamp(position.y, 0, windowSize.y)
